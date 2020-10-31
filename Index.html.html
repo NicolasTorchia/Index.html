@@ -1,0 +1,197 @@
+<html><head>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap" rel="stylesheet">
+    <title>Jornal Parte 2</title>
+</head>
+
+<body>
+  <style>
+  header {
+    background-color: red;
+  }
+  nav ul {
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    cursor: pointer;
+    color: black;
+    border-bottom: 2px solid black;
+  }
+  body{
+    background-image: url(https://static.poder360.com.br/2019/04/jornais-rodoviaria.jpg);
+  }
+  h1{
+    background-color: red;
+    float: bottom;
+    padding-left: 520px;
+    color: white;
+    border-style: dashed;
+    border-color: white;
+  }
+  h2{
+    color: rgb(23, 255, 21);
+    background-color: white;
+  }
+  h3{
+    color: rgb(0, 253, 255);
+  }
+  p{
+    color: rgb(252, 236, 5);
+    background-color: black;
+  }
+  header {
+
+padding: 20px;
+
+background-color: green;
+
+font-family: Arial;
+
+}
+
+header:hover {
+
+animation-name: example;
+
+animation-duration: 4s;
+
+animation-iteration-count: infinite;
+
+}
+
+@keyframes example {
+
+0% { background-color: green; color:yellow }
+
+25% { background-color: yellow; color:blue }
+
+50% { background-color: blue; color:white }
+
+75% { background-color: white; color: green }
+
+100% { background-color: green; color:yellow }
+
+}
+a:link {
+  color: rgb(255, 0, 255);
+}
+ a:visited {
+   color: rgb(255, 128, 0);
+ }
+ h1:hover{
+
+      transform: scale(1.20);
+
+
+ }
+
+
+
+  </style>
+
+  <main>
+
+  </main>
+
+    <!--Cabeçalho-->
+    <header class="cabeçalho">
+        <h1>Jornalzinho Do Bairro</h1>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#noticias">Notícias</a></li>
+                <li><a href="">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Principal-->
+    <main>
+        <div id="inline-block">
+            <aside id="menu-lateral">
+                <h2>Menu</h2>
+                <section>
+                    <p>Política</p>
+                </section>
+                <section>
+                    <p>Eleições</p>
+                </section>
+                <section>
+                    <p>Futebol</p>
+                </section>
+            </aside>
+            <article id="noticias">
+                <section class="noticias-seção">
+                    <h3 class="tema">Policial Militar da reserva é baleado durante tentativa de assalto em Belo Horizonte</h3>
+                    <img src="https://www.itatiaia.com.br/admin/Conteudo/noticias/98700/original/assalto11-01-2018111_11-01-2018_14-17-40.jpg?width=650">
+                    <h2>O sargento reformado da Polícia Militar (PM) Lúcio Roberto Mozert foi baleado na manhã desta quinta-feira em uma tentativa de assalto no Bairro Jardim Europa, na Região de Venda Nova, em Belo Horizonte.
+
+
+O policial é dono de um depósito na Rua Hamburgo e foi alvo de um assaltante que teria, no máximo, 20 anos. O criminoso o abordou dentro do balcão, anunciou o crime e atirou. Há a hipótese de que o militar tenha reagido ao roubo e, por isso, foi alvejado.
+
+Baleado no pescoço e na cabeça, a vítima permaneceu consciente, saiu da loja, pediu para que a esposa fosse avisada e solicitou socorro. Ele foi levado para o Hospital de Pronto-Socorro Risoleta Neves.
+
+O autor do crime fugiu e é procurado pela PM.</h2>
+
+                      <h2>Jornal da Globo sofre derrota histórica e tem menos da metade do ibope da Record REPRODUÇÃO/TV GLOBO</h2>
+                                  <h3>VEJA NO LINK ABAIXO</h3>
+                          <a href="https://noticiasdatv.uol.com.br/noticia/audiencias/jornal-da-globo-sofre-derrota-historica-e-tem-menos-da-metade-do-ibope-da-record-44933">Jornal da Globo sofre derrota histórica e tem menos da metade do ibope da Record REPRODUÇÃO/TV GLOBO</a>
+
+
+                </section>
+                <section class="noticias-seção">
+                    <h3 class="tema">Coronavírus</h3>
+                    <img src="data:image/jpeg;base64,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">
+                    <h2>Mundo registra mais de meio milhão de casos da Covid-19 em apenas um dia e bate novo recorde, segundo agência</h2>
+
+
+                </section>
+                <section class="noticias-seção">
+
+
+                    <h3>Governo volta atrás sobre a volta as aulas</h3>
+                    <p>Após uma tentativa falha de implementar medidas de segurança em escolas públicas, prefeito diz que as escolas irão fechar as portas novamente.</p>
+                </section>
+            </article>
+            <nav id="top-noticias">
+                <header>
+                    <h2>Notícias mais lidas:</h2>
+                </header>
+                <p><a href="https://www.youtube.com/watch?v=vt--ZcOKhd8">Reportagens que não deram muito certo</a></p>
+
+
+            </nav>
+        </div>
+        <section id="informações">
+            <article>
+                <h2>Notícias</h2>
+                <p>No víde a seguir você verá algumas das muitas Reportagens que não deram muito certo.</p>
+                    <h2>Confira este vídeo:</h2>
+                  <iframe src="https://www.youtube.com/embed/vt--ZcOKhd8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen"="" width="800" height="800"></iframe>
+
+                  &lt;
+
+            </article>
+        </section>
+    </main>
+    <!--Rodapé-->
+    <footer>
+        <h2>Jornalzinho do seu Zé com apoio de: ENXURRADA DE BITS</h2>
+        <p>Rua varna, nº190. Jardim Europa - MG</p>
+    </footer>
+
+
+
+</body></html>
